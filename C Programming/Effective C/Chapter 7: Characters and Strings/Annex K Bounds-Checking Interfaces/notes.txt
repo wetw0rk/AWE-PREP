@@ -1,0 +1,6 @@
+Microsoft created the C11 Annex K functions to help retrofit its legacy
+code base. These functions were then proposed to the C standards committee
+for standardization, published as ISO/IEC TR 24731-1 (ISO/IEC TR 24731-1:2007),
+and later incorporated into C11 as a set of optional extensions. Despite the
+improved usability and security provided by these functions, they aren't yet
+widely implemented at the time of this books writing.

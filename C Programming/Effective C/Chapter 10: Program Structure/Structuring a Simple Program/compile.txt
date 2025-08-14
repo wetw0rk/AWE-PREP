@@ -1,0 +1,50 @@
+/* We use Clang to create the static library and executable program, but both
+   GCC and Clang support the command line arguments in the example, so either
+   compiler will work.
+
+   First, compile both of the C source files in the bin directory */
+
+clang -c -std=c17 -Wall -Wextra -pedantic -Werror isprime.c -o bin/isprime.o
+clang -c -std=c17 -Wall -Wextra -pedantic -Werror driver.c -o bin/driver.o
+
+/* The -c flag instructs the compiler to compile the source into an object
+   file without invoking the linker to produce executable output. After
+   executing the commands, the bin directory should contain two object
+   files: isprime.o and driver.o.
+
+   These files contain the object code for each translation unit. You could
+   link them together directly to create the executable program. However in
+   this case we'll make a static library (also called an archive for historical
+   reasons).
+
+   To do this, execute the ar command to generate the static library named
+   libPrimalityUtilities.a in the bin directory.
+
+   The r option instructs the ar command to replace any existing files in
+   the archive with the new files, the c option creates the archive, and
+   the s option writes an object-file index into the archive (which is
+   equivalent to running the ranlib command). This creates a single archive
+   file that's structured to allow retrieval of the original object files
+   used to create the archive, similiar to a compressed tarball or ZIP file.
+
+   By convention, static libraries on Linux systems are prefixed with lib
+   and have a .a file extension. */
+
+ar rcs bin/libPrimalityUtilities.a bin/isprime.o
+
+/* You can now link the driver object file to the libPrimalityUtilities.a
+   static library to produce an executable named primetest. This can be
+   accomplished either by invoking the compiler without the -c flag, which
+   invokes the default system linker with the appropriate arguments, or
+   by invoking the linker directly.
+
+   Invoke the compiler to use the default system linker as follows: */
+
+clang bin/driver.o -Lbin -lPrimalityUtilities -o /bin/primetest
+
+/* The -L flag instructs the linker to look in the local bin directory
+   for libraries to link, and the -l flag instructs the linker to link
+   the libPrimalityUtilities.a library to the output. Omit the lib
+   prefix and the .a suffix from the command line argument, because the
+   linker adds them implicitly. For example, to link against the libm
+   math library, you specify -lm as the link target. */

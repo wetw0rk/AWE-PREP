@@ -1,0 +1,8 @@
+1613738765: 3: Dmalloc version '5.6.5' from 'http://dmalloc.com/'
+1613738765: 3: flags = 0x4e48503, logfile 'logfile'
+1613738765: 3: interval = 100, addr = 0x0, seen # = 0, limit = 0
+1613738765: 3: starting time = 1613738765
+1613738765: 3: process pid = 53542
+1613738765: 3:   error details: finding address in heap
+1613738765: 3:   pointer '0x7f3406be2f88' from 'dmalloc_example.c:52' prev access 'unknown'
+1613738765: 3: ERROR: free: tried to free previously freed pointer (err 61)

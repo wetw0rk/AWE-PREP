@@ -1,0 +1,40 @@
+/* AVOIDING DOUBLE-FREE VULNERABILITIES */
+
+If you call the free function on the same pointer more than once, undefined
+behavoir occurs - also known as a security flaw, a double free.
+
+Another common error is to access memory that has already been freed. This type
+of error goes frequently undiagnosed, becuase the code might appear to work, but
+fails in unexpected ways away from the actual error.
+
+In the following example the argument to close is invalid, becuase the storage
+formerly pointed to by dirp has been reclaimed by the second call to free:
+
+```
+#include <dirent.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int closedir(DIR *dirp) {
+  free(dirp-> d-_buf);
+  free(dirp);
+  return close(dirp->d_fd); // dirp has already been freed
+}
+```
+
+We refer to pointers to already freed memory as dangling pointers.
+
+/* SETTING THE POINTER TO NULL */
+
+To limit the opportunity for defects involving dangling pointers, set the
+pointer to NULL after completing a call to free:
+
+```
+char *ptr = NULL;
+//---snip---
+free(ptr);
+ptr = NULL;
+```
+
+Any future attempt to dereference the pointer will usually result in a crash
+increasing the likelyhood that the error is detected during implementation.

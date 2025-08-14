@@ -1,0 +1,20 @@
+/* FUNCTION PROTOTYPE SCOPE */
+
+You can also declare VLA's as function parameters. For example, the n parameter
+in the signature for memset:
+
+```
+void *memset(void *s, int c, sizt_t n);
+```
+
+When you call such a function, n should accurately represent the size of the array
+referenced by s. Undefined behavior results if this size is larger than the array.
+
+When declaring a function to take a VLA as an argument that specifies a size, we
+must declare the size of the array before referencing the size in the array
+declaration. We could, for example modify the signature for the memset function
+as follows to take a VLA:
+
+```
+void *memset_via(size_t n, char s[n], int c);
+```

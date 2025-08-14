@@ -1,0 +1,47 @@
+/* AVOIDING MEMORY LEAKS */
+
+The following use of realloc contains an error:
+
+```
+size += 50;
+if ((p = realloc(p, size)) == NULL)
+  return NULL;
+```
+
+In the example above, size is incremented by 50 before calling realloc to
+increase the size of the storage referenced by p. If the call to realloc fails
+p is assigned the value NULL, but realloc doesn't deallocate the storage referenced
+by p, resulting in this memory being leaked.
+
+The following is the proper usage of realloc:
+
+```
+void *p2
+void *p = malloc(100);
+//---snip---
+if ((nsize == 0) || (p2 = realloc(p, nsize)) == NULL) {
+  free(p);
+  return NULL;
+}
+```
+
+/* CALLING REALLOC WITH A NULL POINTER */
+
+Calling realloc with a null pointer is equivalen to calling malloc. Provided
+newsize isn't equal to 0, the following code:
+
+```
+if (p == NULL)
+  newp = malloc(newsize);
+else
+  newp = realloc(p, newsize);
+```
+
+can be replaced with:
+
+```
+newp = realloc(p, newsize);
+```
+
+Because calling realloc with a null pointer is equivalent to calling malloc,
+the second version concisely accomplishes the same thing.

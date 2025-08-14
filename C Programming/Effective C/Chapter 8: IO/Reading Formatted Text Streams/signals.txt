@@ -1,0 +1,8 @@
+1 HUP   Hangup
+2 INT   Interrupt
+3 QUIT Quit
+4 ILL Illegal instruction
+5 TRAP Trace trap
+6 ABRT Abort
+7 EMT EMT Trap
+8 FPE Floating-point exception

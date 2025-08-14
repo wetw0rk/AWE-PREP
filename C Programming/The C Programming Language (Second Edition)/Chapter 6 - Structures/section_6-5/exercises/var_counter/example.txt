@@ -1,0 +1,6 @@
+char chickFila;
+int chickFilaPrice;
+char applebees;
+int applebeesPrice;
+char bobsburgers;
+int bobsburgersPrice

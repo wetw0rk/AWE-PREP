@@ -1,0 +1,12 @@
+- Chapter 2  -> Derived Types: Unions objects share the same memory regions (they overlap)
+- Chapter 2  -> Type Qualifiers: It's possible to convinve the compiler to change a const object
+- Chapter 2  -> Type Qualifiers: restrict and volatile... for optimization
+- Chapter 3  -> Wraparound: Page 39 very important on checking if greater than UINT_MAX (DON'T DO IT)
+- Chapter 3  -> An exampleof implicit conversion: How auto-conversion of types can introduce strange behavoir
+- Chapter 4  -> Pointer arithmetic (includes memory leak example) (page 79) 
+- Chapter 6  -> Double free vulnerability (page 108)
+- Chapter 6  -> alloca allows for dynamic allocation from stack instead of the heap (page 111)
+- Chapter 6  -> VLA's similiar to alloca (page 112)
+- Chapter 6  -> DMALLOC dynamic analysis tool (page 116)
+- Chapter 8  -> fread and fwrite (got me thinking I can make my own deserailization protocols)
+- Chapter 10 -> Creating our own static library and linking it using the linker

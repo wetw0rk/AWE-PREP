@@ -1,0 +1,6 @@
+GCC Flags:
+
+  -Wvla: flag that warns if a VLA is used
+  -Wvla-larger-than=<byte-size>: flag that warns for declarations of VLA's whose size is either unbounded,
+                                 or bounded by an argument that allows the array size to exceed byte-size
+                                 bytes.
