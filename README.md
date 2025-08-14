@@ -32,9 +32,9 @@ All books shown below were read from cover to cover, and all exercises were comp
 
 | Order | Type | Name | Links |
 | --- | --- | --- | --- |
-| 0 | Book | The C Programming Language | [Amazon Purchase Link](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628?tag=iluvu00-20) |
-| 1 | Book | Effective C | [Amazon Purchase Link](https://www.amazon.com/Effective-2nd-Introduction-Professional-Programming/dp/1718504128?tag=iluvu00-20) |
-| 2 | Training | Windows Malware Techniques | [WINMAL Course (CodeMachine)](https://codemachine.com/trainings/winmal.html) |
+| 0x00 | Book | The C Programming Language | [Amazon Purchase Link](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628?tag=iluvu00-20) |
+| 0x01 | Book | Effective C | [Amazon Purchase Link](https://www.amazon.com/Effective-2nd-Introduction-Professional-Programming/dp/1718504128?tag=iluvu00-20) |
+| 0x02 | Training | Windows Malware Techniques | [WINMAL Course (CodeMachine)](https://codemachine.com/trainings/winmal.html) |
 
 ## Reverse Engineering and Binary Exploitation
 
@@ -51,14 +51,14 @@ With that, shown below is the table containing all subject matter that assisted 
 
 | Order | Type | Name | Links |
 | --- | --- | --- | --- |
-| 0 | Open Source Training | Modern Binary Exploitation (MBE) | [MBE Course](https://github.com/RPISEC/MBE) <br><br> [MBE Notes](https://github.com/wetw0rk/MBE-NOTES) |
-| 1 | Open Source Training | Corelan Exploit Writing Tutorials | [Exploit writing tutorial part 1 : Stack Based Overflows](https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/) <br><br> [Exploit writing tutorial part 2 : Stack Based Overflows – jumping to shellcode](https://www.corelan.be/index.php/2009/07/23/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-2/) <br><br> [Exploit writing tutorial part 3 : SEH Based Exploits](https://www.corelan.be/index.php/2009/07/25/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-3-seh/) <br><br> [Exploit writing tutorial part 5 : How debugger modules & plugins can speed up basic exploit development](https://www.corelan.be/index.php/2009/09/05/exploit-writing-tutorial-part-5-how-debugger-modules-plugins-can-speed-up-basic-exploit-development/) <br><br> [Exploit writing tutorial part 7 : Unicode – from 0x00410041 to calc](https://www.corelan.be/index.php/2009/11/06/exploit-writing-tutorial-part-7-unicode-from-0x00410041-to-calc/) |
-| 2 | Open Source Training | Basics of Windows shellcode writing | [Basics of Windows shellcode writing](https://idafchev.github.io/exploit/2017/09/26/writing_windows_shellcode.html) |
-| 3 | Training | Corelan HEAP Masterclass | [Corelan Heap exploitation masterclass](https://www.corelan-training.com/index.php/training/heap/) |
-| 5 | Book | The Ghidra Book | [Amazon Purchase Link](https://www.amazon.com/Ghidra-Book-2nd-Definitive-Guide/dp/1718504683?tag=iluvu00-20) |
-| 5 | Training | RET2 Systems Wargames | [RET2 Wargames](https://wargames.ret2.systems/) <br><br> [RET2 Wargames (Review)](https://www.linkedin.com/pulse/ret2-systems-wargames-review-milton-valencia-0udrf/) |
-| 6 | Open Source Training | HackSysVulnerableDriver (HEVD) | [0xFF - HackSysExtremeVulnerableDriver (HEVD) Project](https://github.com/hacksysteam/HackSysExtremeVulnerableDriver) <br><br> [0x00 - Introduction to Windows Kernel Exploitation](https://wetw0rk.github.io/posts/0x00-introduction-to-windows-kernel-exploitation/) <br><br> [0x01 - Killing Windows Kernel Mitigations](https://wetw0rk.github.io/posts/0x01-killing-windows-kernel-mitigations/) <br><br> [0x02 - Introduction to Windows Kernel Use After Frees (UaFs)](https://wetw0rk.github.io/posts/0x02-introduction-to-windows-kernel-uafs/) <br><br> [0x03 - Approaching the Modern Windows Kernel Heap](https://wetw0rk.github.io/posts/0x03-approaching-the-modern-windows-kernel-heap/) <br><br> [0x04 - Introduction to Windows Kernel Write What Where Vulnerabilities](https://wetw0rk.github.io/posts/0x04-writing-what-where-in-the-kernel/) <br><br> [0x05 - Introduction to Windows Kernel Type Confusion Vulnerabilities](https://wetw0rk.github.io/posts/0x05-introduction-to-windows-kernel-type-confusion-vulnerabilities/) <br><br> [0x06 - Approaching Modern Windows Kernel Type Confusions](https://wetw0rk.github.io/posts/0x06-approaching-modern-windows-kernel-type-confusions/) <br><br> [0x07 - Introduction to Windows Kernel Race Conditions](https://wetw0rk.github.io/posts/0x07-introduction-to-windows-kernel-race-conditions/) <br><br> [0x08 - Modern Windows Kernel Race Conditions](https://wetw0rk.github.io/posts/0x08-modern-windows-kernel-race-conditions/) <br><br> [0x09 - Return of the Windows Kernel Stack Overflow](https://wetw0rk.github.io/posts/0x09-return-of-the-stack-overflow/) |
-| 7 | Training | RET2 Systems: The Fundamentals of Browser Exploitation| [RET2 Purchase Link](https://ret2.io/trainings) |
+| 0x00 | Open Source Training | Modern Binary Exploitation (MBE) | [MBE Course](https://github.com/RPISEC/MBE) <br><br> [MBE Notes](https://github.com/wetw0rk/MBE-NOTES) |
+| 0x01 | Open Source Training | Corelan Exploit Writing Tutorials | [Exploit writing tutorial part 1 : Stack Based Overflows](https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/) <br><br> [Exploit writing tutorial part 2 : Stack Based Overflows – jumping to shellcode](https://www.corelan.be/index.php/2009/07/23/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-2/) <br><br> [Exploit writing tutorial part 3 : SEH Based Exploits](https://www.corelan.be/index.php/2009/07/25/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-3-seh/) <br><br> [Exploit writing tutorial part 5 : How debugger modules & plugins can speed up basic exploit development](https://www.corelan.be/index.php/2009/09/05/exploit-writing-tutorial-part-5-how-debugger-modules-plugins-can-speed-up-basic-exploit-development/) <br><br> [Exploit writing tutorial part 7 : Unicode – from 0x00410041 to calc](https://www.corelan.be/index.php/2009/11/06/exploit-writing-tutorial-part-7-unicode-from-0x00410041-to-calc/) |
+| 0x02 | Open Source Training | Basics of Windows shellcode writing | [Basics of Windows shellcode writing](https://idafchev.github.io/exploit/2017/09/26/writing_windows_shellcode.html) |
+| 0x03 | Training | Corelan HEAP Masterclass | [Corelan Heap exploitation masterclass](https://www.corelan-training.com/index.php/training/heap/) |
+| 0x04 | Book | The Ghidra Book | [Amazon Purchase Link](https://www.amazon.com/Ghidra-Book-2nd-Definitive-Guide/dp/1718504683?tag=iluvu00-20) |
+| 0x04 | Training | RET2 Systems Wargames | [RET2 Wargames](https://wargames.ret2.systems/) <br><br> [RET2 Wargames (Review)](https://www.linkedin.com/pulse/ret2-systems-wargames-review-milton-valencia-0udrf/) |
+| 0x05 | Open Source Training | HackSysVulnerableDriver (HEVD) | [0xFF - HackSysExtremeVulnerableDriver (HEVD) Project](https://github.com/hacksysteam/HackSysExtremeVulnerableDriver) <br><br> [0x00 - Introduction to Windows Kernel Exploitation](https://wetw0rk.github.io/posts/0x00-introduction-to-windows-kernel-exploitation/) <br><br> [0x01 - Killing Windows Kernel Mitigations](https://wetw0rk.github.io/posts/0x01-killing-windows-kernel-mitigations/) <br><br> [0x02 - Introduction to Windows Kernel Use After Frees (UaFs)](https://wetw0rk.github.io/posts/0x02-introduction-to-windows-kernel-uafs/) <br><br> [0x03 - Approaching the Modern Windows Kernel Heap](https://wetw0rk.github.io/posts/0x03-approaching-the-modern-windows-kernel-heap/) <br><br> [0x04 - Introduction to Windows Kernel Write What Where Vulnerabilities](https://wetw0rk.github.io/posts/0x04-writing-what-where-in-the-kernel/) <br><br> [0x05 - Introduction to Windows Kernel Type Confusion Vulnerabilities](https://wetw0rk.github.io/posts/0x05-introduction-to-windows-kernel-type-confusion-vulnerabilities/) <br><br> [0x06 - Approaching Modern Windows Kernel Type Confusions](https://wetw0rk.github.io/posts/0x06-approaching-modern-windows-kernel-type-confusions/) <br><br> [0x07 - Introduction to Windows Kernel Race Conditions](https://wetw0rk.github.io/posts/0x07-introduction-to-windows-kernel-race-conditions/) <br><br> [0x08 - Modern Windows Kernel Race Conditions](https://wetw0rk.github.io/posts/0x08-modern-windows-kernel-race-conditions/) <br><br> [0x09 - Return of the Windows Kernel Stack Overflow](https://wetw0rk.github.io/posts/0x09-return-of-the-stack-overflow/) |
+| 0x06 | Training | RET2 Systems: The Fundamentals of Browser Exploitation| [RET2 Purchase Link](https://ret2.io/trainings) |
 
 # Post Breakdown
 
@@ -68,19 +68,19 @@ Some of these will have *"todo links"* meaning that I have not uploaded the rese
 
 | Order | Type | Name | Links |
 | --- | --- | --- | --- |
-| 0 | Open Source Training | Ezekiels Wheel (Hells Gate Analysis) | [My Analysis](https://wetw0rk.github.io/posts/ezekielswheel/ezekielswheel/) |
-| 1 | Open Source Training | Reverse engineering the _SECURITY_DESCRIPTOR | [My Analysis (TODO)](https://wetw0rk.github.io/) <br><br> [Kernel ACE Edit Shellcode (Sickle Module)](https://github.com/wetw0rk/Sickle/blob/master/src/sickle/payloads/windows/x64/kernel_ace_edit.py) |
-| 2 | Open Source Training | Leverage knowledge from RET2 to exploit CVE-2018-0617 | [My Analysis (TODO)](https://wetw0rk.github.io/) |
-| 3 | Open Source Training | Writing shellcode with Sickle | [Tutorial (TODO)]() <br><br> [Sickle Project](https://github.com/wetw0rk/Sickle) |
-| 4 | AWE | Study and understand JOP Gadgets | N/A |
-| 5 | AWE | Create functions to leverage exploit primitives | N/A |
-| 6 | AWE | Create high-level diagrams for each exploit within course | N/A |
-| 7 | AWE | Complete as many extra-miles as possible before exam | N/A |
-| 8 | AWE | Create a stable exploit for each section | N/A |
-| 9 | AWE | Create a cheatsheet for all WinDbg commands | N/A |
-| 10 | AWE | Create a cheetsheet for Ghidra | N/A |
-| 11 | AWE | Create a cheatsheet for Sickle | N/A |
-| 12 | AWE | Create a cheatsheet for Metasploit | N/A |
+| 0x00 | Open Source Training | Ezekiels Wheel (Hells Gate Analysis) | [My Analysis](https://wetw0rk.github.io/posts/ezekielswheel/ezekielswheel/) |
+| 0x01 | Open Source Training | Reverse engineering the _SECURITY_DESCRIPTOR | [My Analysis (TODO)](https://wetw0rk.github.io/) <br><br> [Kernel ACE Edit Shellcode (Sickle Module)](https://github.com/wetw0rk/Sickle/blob/master/src/sickle/payloads/windows/x64/kernel_ace_edit.py) |
+| 0x02 | Open Source Training | Leverage knowledge from RET2 to exploit CVE-2018-0617 | [My Analysis (TODO)](https://wetw0rk.github.io/) |
+| 0x03 | Open Source Training | Writing shellcode with Sickle | [Tutorial (TODO)]() <br><br> [Sickle Project](https://github.com/wetw0rk/Sickle) |
+| 0x04 | AWE | Study and understand JOP Gadgets | N/A |
+| 0x05 | AWE | Create functions to leverage exploit primitives | N/A |
+| 0x06 | AWE | Create high-level diagrams for each exploit within course | N/A |
+| 0x07 | AWE | Complete as many extra-miles as possible before exam | N/A |
+| 0x08 | AWE | Create a stable exploit for each section | N/A |
+| 0x09 | AWE | Create a cheatsheet for all WinDbg commands | N/A |
+| 0x0A | AWE | Create a cheetsheet for Ghidra | N/A |
+| 0x0B | AWE | Create a cheatsheet for Sickle | N/A |
+| 0x0C | AWE | Create a cheatsheet for Metasploit | N/A |
 
 # Tooling
 
