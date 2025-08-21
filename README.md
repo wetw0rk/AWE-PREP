@@ -113,6 +113,8 @@ Aside from my choice of decompiler/disassembler I used the following tooling for
 
 Below are some references used throughout my journey. Please keep in mind that I try to include resources in each blog post as well. I like many others stand on the shoulders of giants.
 
+I also wanted to thank God my lord and savior Jesus Christ, I feel incredible blessed to be where I am today.
+
 ```
 https://codemachine.com/index.html
 https://codemachine.com/trainings/winmal.html
