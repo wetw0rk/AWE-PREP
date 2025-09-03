@@ -36,7 +36,8 @@ All books shown below were read from cover to cover, and all exercises were comp
 | 0x01 | Book | The C Programming Language | [Amazon Purchase Link](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628?tag=iluvu00-20) |
 | 0x02 | Book | Effective C | [Amazon Purchase Link](https://www.amazon.com/Effective-2nd-Introduction-Professional-Programming/dp/1718504128?tag=iluvu00-20) |
 | 0x03 | Open Source Training | Learn C++ | [LEARN C++ Online](https://www.learncpp.com/) |
-| 0x04 | Training | Windows Malware Techniques | [WINMAL Course (CodeMachine)](https://codemachine.com/trainings/winmal.html) |
+| 0x04 | Open Source Training | Windows Kernel Programming (Programming LoL) | [My Notes](https://github.com/wetw0rk/AWE-PREP/tree/main/C%20Programming/0x04%20-%20Windows%20Kernel%20Programming%20(Programming%20LoL)) |
+| 0x05 | Training | Windows Malware Techniques | [WINMAL Course (CodeMachine)](https://codemachine.com/trainings/winmal.html) |
 
 ## Reverse Engineering and Binary Exploitation
 
